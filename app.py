@@ -1,1 +1,1 @@
-print("Hello from Jenkins CI pipeline")
+return "Deployed automatically via Jenkins CI/CD"
