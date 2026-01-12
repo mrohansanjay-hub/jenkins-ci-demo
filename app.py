@@ -1,3 +1,7 @@
+from flask import Flask
+
+app = Flask(__name__)
+
 @app.route("/")
 def home():
-    return "AUTO TRIGGER FINALLY WORKING"
+    return "RETEST SUCCESS – DEPLOYED VIA JENKINS"
