@@ -1,1 +1,3 @@
-return "Deployed automatically via Jenkins CI/CD"
+@app.route("/")
+def home():
+    return "AUTO TRIGGER FINALLY WORKING"
